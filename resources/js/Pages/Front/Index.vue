@@ -55,8 +55,8 @@ const props = defineProps({
     <nav class="bg-white">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="/" class="flex items-center">
-                <img src="img/logo_Web.png" class="h-8 mr-3" alt=" Logo" />
-                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-dark">Dosen AI</span>
+                <img src="img/logo_web.png" class="h-8 mr-3" alt=" Logo" />
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-dark">Pijar Pahlawan</span>
             </a>
             <div class="flex md:order-2">
                 <div v-if="canLogin">
@@ -97,10 +97,6 @@ const props = defineProps({
                     </li>
                     <li>
                         <a href="#"
-                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-dark md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-dark md:dark:hover:bg-transparent">Pricing</a>
-                    </li>
-                    <li>
-                        <a href="#"
                             class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-dark md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-dark md:dark:hover:bg-transparent">Contact</a>
                     </li>
                 </ul>
@@ -111,23 +107,10 @@ const props = defineProps({
         <div class="py-1 px-4 mx-auto max-w-screen-xl  lg:py-16 grid lg:grid-cols-2 gap-12 lg:gap-16">
             <div class="flex flex-col justify-center">
                 <h1
-                    class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-                    {{ slider.judul }}</h1>
-                <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
-                    {{ slider.konten }}</p>
-                <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
-                    <a href="#"
-                        class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
-                        Get started <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                            fill="none" viewBox="0 0 14 10">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M1 5h12m0 0L9 1m4 4L9 9" />
-                        </svg>
-                    </a>
-                    <a href="#"
-                        class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
-                        Learn more </a>
-                </div>
+                    class="mt-16 mb-4 text-center lg:text-left text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+                    Pijar Pahlawan Qolbu</h1>
+                <p class="mb-8 text-center lg:text-left text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
+                    Seorang programmer pemalas namun selalu ingin tahu</p>
             </div>
             <div>
                 <LottieAnimation :animation-data="WatermelonJSON" :auto-play="true" :height="100" :loop="true" :speed="1"
@@ -138,10 +121,9 @@ const props = defineProps({
     <section cclass="bg-grey-50" id="about">
         <div class="mx-auto max-w-screen-xl container flex flex-col items-center py-16 md:py-20 lg:flex-row">
             <div class="w-full text-center sm:w-3/4 lg:w-3/5 lg:text-left">
-                <h2 class="font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl"> Who am I?
+                <h2 class="font-header text-4xl font-semibold uppercase text-primary sm:text-5xl lg:text-6xl"> Mari Mengenal Lebih Jauh
                 </h2>
-                <h4 class="pt-6 font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl"> {{ about.judul }}</h4>
-                <p class="pt-6 font-body leading-relaxed text-grey-20">{{ about.konten }}</p>
+                <h4 class="pt-6 font-header text-xl font-medium text-black sm:text-2xl lg:text-3xl"> Saya adalah seorang mahasiswa AMIKOM angkatan 2021 yang berasal dari Kota Batang</h4>
                 <div class="flex flex-col justify-center pt-6 sm:flex-row lg:justify-start">
                     <div class="flex items-center justify-center sm:justify-start">
                         <a href="https://www.instagram.com/mujiyantosvc/"
